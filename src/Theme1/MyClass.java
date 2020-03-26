@@ -1,4 +1,4 @@
-// комментарий
+package Theme1;// комментарий
 
 /*
 комментарий
@@ -23,4 +23,5 @@ public class MyClass {
         System.out.println(d64);
         System.out.println(ch);
     }
+
 }
