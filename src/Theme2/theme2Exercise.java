@@ -154,6 +154,10 @@ public class theme2Exercise {
             }
         }
 
+        if (n < 0){
+
+        }
+
         for (int c : cats) {
             System.out.print(c + " ");
         }
