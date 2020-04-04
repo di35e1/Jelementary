@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TicTacToe {
 
     private static char[][] map;
-    private static int SIZE = 3;
+    private static final int SIZE = 3;
 
     private static final char DOT_EMPTY = '.';
     private static final char DOT_X = 'X';
@@ -155,7 +155,12 @@ public class TicTacToe {
                     break;
                 }
             }
+
+            if(!result){
+                break;
+            }
         }
+
         return result;
     }
 
