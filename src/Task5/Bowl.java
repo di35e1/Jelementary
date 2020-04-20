@@ -1,4 +1,3 @@
-
 package Task5;
 
 import java.util.Scanner;
@@ -9,7 +8,6 @@ public class Bowl {
     private int foodQuantity = 0;
 
     public Bowl(int vol) {
-
         this.volume = vol;
     }
 
